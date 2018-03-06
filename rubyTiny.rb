@@ -33,11 +33,11 @@ if input_array.length > 0
 	$i +=1
 	end 
 else 
-	puts "+++++ Fehler +++++"
-	puts "Vermutlich wurde die .exe Datei ohne Parameter gestartet. Bitte immer den Modus (tiny,855,1280,etc.) und den Pfad zur Datei übergeben. Das geht ganz einfach mit einer Verknüpfung."
+	puts "+++++ Error +++++"
+	puts "Maybe the programm just started missing the parameter which contains the mode, like 'tiny' or '1000'. Use a shortcut or cli!"
 	print "Beende Programm: "
-	1.upto(5).each { 
-	|i| print 6-i 
+	1.upto(9).each { 
+	|i| print 10-i 
 	sleep(1)
 	}
 	
