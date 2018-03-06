@@ -35,7 +35,7 @@ if input_array.length > 0
 else 
 	puts "+++++ Error +++++"
 	puts "Maybe the programm just started missing the parameter which contains the mode, like 'tiny' or '1000'. Use a shortcut or cli!"
-	print "Beende Programm: "
+	print "Closing Programm: "
 	1.upto(9).each { 
 	|i| print 10-i 
 	sleep(1)
