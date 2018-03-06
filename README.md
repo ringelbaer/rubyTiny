@@ -1,18 +1,18 @@
 # rubyTiny
 A little tool to resize a image and tinify using tinypng.com
 
-## Build
-gem install tinify<br>
-gem install fileutils<br>
-gem install ocra<br>
-ocra rubyTiny.rb --no-enc
-
 ## Need
 * magick.exe
 * magic.xml<br>
 from https://www.imagemagick.org/script/download.php
 
 API Code from https://tinypng.com/developers
+
+## Build
+gem install tinify<br>
+gem install fileutils<br>
+gem install ocra<br>
+ocra rubyTiny.rb --no-enc
 
 ## Use
 Use this tool, to "drag and drop" resize and tinify a .jpg or .png image.<br>
