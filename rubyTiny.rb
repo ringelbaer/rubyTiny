@@ -1,13 +1,5 @@
 #!/usr/bin/env ruby
 
-# Nutzt den Webservice tinypng.com um .jpg und .png Dateien zu komprimieren.
-# Kann vorher das Bild auf eine gewünschte Größe skalieren.
-# Funktioniert nur über Drag-and-Drop oder die Kommandozeile
-# ---
-# **erster Parameter**
-# tiny - komprimiert allein, Abmessungen bleiben erhalten
-# 1000 - oder jede beliebige andere Zahl, skaliert und komprimiert auf maximal 1000 Pixel Kantenlänge
-
 gem "tinify"
 require "tinify"
 require "fileutils"
